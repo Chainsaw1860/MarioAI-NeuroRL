@@ -3,13 +3,17 @@
 ## Overview
 MarioAI-NeuroRL is an ambitious project developed as part of a university course, focusing on developing an AI agent capable of playing Super Mario Bros. by leveraging neuroevolution and reinforcement learning techniques. This project incorporates advanced AI methodologies to enable deep understanding and effective navigation in the world of Super Mario.
 
-For a detailed project overview and demonstration, watch our [project presentation video on YouTube](https://www.youtube.com/watch?v=hk08gDa8JaM&t=80s).
-
-For a detailed project overview and demonstration, watch our [project presentation video on YouTube](https://www.youtube.com/watch?v=hk08gDa8JaM&t=80s).
+For a detailed project overview and demonstration, watch our [project presentation video on YouTube](https://www.youtube.com/watch?v=hk08gDa8JaM).
 ## Inspiration
-The development of MarioAI-NeuroRL has been significantly influenced by two major works:
-1. [_Play Super Mario Bros with a Double Deep Q-Network_ by Andrew Grebenisan (Python Project)](https://blog.paperspace.com/building-double-deep-q-network-super-mario-bros/)
-2. [_Evolution-Guided Policy Gradient in Reinforcement Learning_ by Shauharda Khadka and Kagan Tumer (Scientific Paper)](https://arxiv.org/abs/1805.07917)
+
+The MarioAI-NeuroRL project synthesizes cutting-edge advancements in artificial intelligence by integrating concepts from two pivotal works. It leverages the reinforcement learning strategy drawn from:
+
+1. [_Play Super Mario Bros with a Double Deep Q-Network_ by Andrew Grebenisan](https://blog.paperspace.com/building-double-deep-q-network-super-mario-bros/), a comprehensive Python project that explores deep reinforcement learning to navigate the complex environments of Super Mario Bros.
+
+With the approach of combining Reinforcement Learning with Evolutional Algorithms outlined in:
+
+2. [_Evolution-Guided Policy Gradient in Reinforcement Learning_ by Shauharda Khadka and Kagan Tumer](https://arxiv.org/abs/1805.07917), a seminal scientific paper that presents
+
 
 ## Project Structure
 - **Python Files:** All scripts are located in the `src` directory.
