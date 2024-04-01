@@ -1,6 +1,10 @@
 # MarioAI-NeuroRL
 Neuroevolution and Reinforcement Learning for a Super Mario Bros Playing AI Agent
 
+
+https://github.com/thomas7b/MarioAI-NeuroRL/assets/62804459/d5546ac2-43b3-4e3f-b9fc-0cd0e768d0b4
+
+
 * this project is highly influenced from two major works
   1. [_Play Super Mario Bros with a Double Deep Q-Network_ by Andrew Grebenisan (Python Project)](https://blog.paperspace.com/building-double-deep-q-network-super-mario-bros/)
   2. [_Evolution-Guided Policy Gradient in Reinforcement Learning_ by Shauharda Khadka and Kagan Tumer (Scientific Paper)](https://arxiv.org/abs/1805.07917)
