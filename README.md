@@ -1,7 +1,7 @@
 # MarioAI-NeuroRL
 Neuroevolution and Reinforcement Learning for a Super Mario Bros Playing AI Agent
 
-<img src="data/marioai-level1.gif" width="500" alt="MarioAI Level 1 Demo">
+<img src="data/marioai-level1.gif" width="200" alt="MarioAI Level 1 Demo">
 
 
 * this project is highly influenced from two major works
