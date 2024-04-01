@@ -1,8 +1,11 @@
 # MarioAI-NeuroRL
 
 ## Overview
-MarioAI-NeuroRL is an ambitious project that focuses on developing an AI agent capable of playing Super Mario Bros. by leveraging neuroevolution and reinforcement learning techniques. This project incorporates advanced AI methodologies to enable deep understanding and effective navigation in the world of Super Mario.
+MarioAI-NeuroRL is an ambitious project developed as part of a university course, focusing on developing an AI agent capable of playing Super Mario Bros. by leveraging neuroevolution and reinforcement learning techniques. This project incorporates advanced AI methodologies to enable deep understanding and effective navigation in the world of Super Mario.
 
+For a detailed project overview and demonstration, watch our [project presentation video on YouTube](https://www.youtube.com/watch?v=hk08gDa8JaM&t=80s).
+
+For a detailed project overview and demonstration, watch our [project presentation video on YouTube](https://www.youtube.com/watch?v=hk08gDa8JaM&t=80s).
 ## Inspiration
 The development of MarioAI-NeuroRL has been significantly influenced by two major works:
 1. [_Play Super Mario Bros with a Double Deep Q-Network_ by Andrew Grebenisan (Python Project)](https://blog.paperspace.com/building-double-deep-q-network-super-mario-bros/)
