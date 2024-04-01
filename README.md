@@ -28,13 +28,10 @@ The development of MarioAI-NeuroRL has been significantly influenced by two majo
 - All scripts allow closing the Pygame window and cancelling the script by pressing the ESC key.
 
 ## Demos
-The following GIFs demonstrate the results after 8000 episodes for each level:
+The following GIFs demonstrate the results after 8000 episodes for each level, displayed side by side with a width of 200 pixels each:
 
-### Level 1
-<img src="data/marioai-level1.gif" width="400" alt="MarioAI Level 1 Demo">
-
-### Level 2
-<img src="data/marioai-level2.gif" width="400" alt="MarioAI Level 2 Demo">
-
-### Level 3
-<img src="data/marioai-level3.gif" width="400" alt="MarioAI Level 3 Demo">
+<p float="left">
+  <img src="data/marioai-level1.gif" width="200" alt="MarioAI Level 1 Demo" />
+  <img src="data/marioai-level2.gif" width="200" alt="MarioAI Level 2 Demo" />
+  <img src="data/marioai-level3.gif" width="200" alt="MarioAI Level 3 Demo" />
+</p>
