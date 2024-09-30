@@ -1,4 +1,4 @@
-- Link Google Drive: 
+- Link Google Drive: https://drive.google.com/file/d/1tbdlfNIqIWOydwo4Ld0sI1Rr7l7RFLwK/view?usp=sharing
 - User: pi
 - Password: password
 - To activate the autologin, follow the corresponding step in setup_raspi.txt in the docs folder
