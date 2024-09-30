@@ -16,3 +16,4 @@ Neuroevolution and reinforcement learning for a Super Mario Bros. playing AI age
 * In all scripts, the Pygame window can be closed and the script aborted by pressing the ESC key
 * Before running the Python scripts, you need to set up the environment with the requirements.txt file (use "pip install -r requirements.txt" once you have navigated to the MarioAI-NeuroRL directory)
 * This project has been tested with Python 3.11.2, so make sure you have the same version
+* The bash script autostartup.sh in the shell folder is for executing the Python script automatic_mode.py when you set up a Raspberry Pi according to the instructions setup_raspi.txt in the docs folder
