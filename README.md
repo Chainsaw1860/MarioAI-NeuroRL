@@ -7,7 +7,7 @@ Neuroevolution and reinforcement learning for a Super Mario Bros. playing AI age
 * Also note that OpenAI's ChatGPT was used to assist in programming
 * The whole project is written in Python
 * You can find all the Python files in the src directory
-* All these files (except automatic_mode.py) can be run from the GUI by navigating to the MarioAI-NeuroRL project folder and running the GUI.py file, e.g. "python src/GUI.py"
+* All these files (except automatic_mode.py) can be run from the GUI by navigating to the MarioAI-NeuroRL-main project folder and running the GUI.py file, e.g. "python src/GUI.py"
 * The file train_models.py can be started either directly, e.g. with the batch command "python .../train_models.py" (environment is level 1) or via the GUI (select level for environment), the same applies for test_model.py
 * The same goes for test_models.py, if you run it directly (level 1 and 1000 iterations trained model for level 1), human_player.py will also start at level 1
 * The script human_player.py starts the environment of a level, then waits for a human player to interact with it via controller, if no controller is connected (Bluetooth or USB) the script will crash
