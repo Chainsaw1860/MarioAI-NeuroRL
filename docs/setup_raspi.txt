@@ -5,6 +5,8 @@
 	- Kernel version: 6.6
 	- Debian version: 12 (bookworm)
 
+- Create the user pi
+
 - Get the project and set up the Python environment:
 	-> Open the Raspi terminal (directly on the device or via SSH from the host computer):
 		[-> Download the Github project (wget --no-check-certificate https://github.com/Chainsaw1860/MarioAI-NeuroRL/archive/refs/heads/main.zip)]
