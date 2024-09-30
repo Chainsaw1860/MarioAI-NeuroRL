@@ -1,0 +1,35 @@
+- Installing the operating system Raspberry Pi OS (64-bit)
+	- Raspberry Pi OS with Desktop
+	- Release Date: July 4th 2024
+	- System: 64-bit
+	- Kernel version: 6.6
+	- Debian version: 12 (bookworm)
+
+- Get the project and set up the Python environment:
+	-> Open the Raspi terminal (directly on the device or via SSH from the host computer):
+		[-> Download the Github project (wget --no-check-certificate https://github.com/Chainsaw1860/MarioAI-NeuroRL/archive/refs/heads/main.zip)]
+		or alternatively:
+		[-> Send via SSH from host computer (scp -P 2222 /home/ubuntu/Downloads/MarioAI-NeuroRL-main.zip pi@'IP-RASPI':/home/pi/)]
+		-> Unzip the ZIP file (unzip main.zip)
+		-> The correct python (3.11.2) is already installed (python --verison)
+		-> Create a virtual environment (python -m venv Mario)
+		-> Activate environment (source Mario/bin/activate)
+		-> Install PyTorch (pip install torch==2.4.1)
+		-> Install package for Super Mario Bros. in OpenAI's Gym (pip install gym-super-mario-bros==7.4.0)
+		-> Install Pygame (pip install pygame==2.6.1)
+		-> Install OpenCV for image processing (pip install opencv-python==4.10.0.84)
+		-> Change version of gym (pip install gym==0.17.2)
+		-> change version of numpy (pip install numpy==1.23.5)
+		=> Now all required packages should be installed, to be sure compare “pip list” with requirements.txt
+
+- Ensure autostart of the Python script automatic_mode.py:
+	-> Open the Raspi terminal (directly on the device or via SSH from the host computer):
+		-> Navigate to pi directory, if not already done (cd /home/ubuntu)
+		-> Add another line to .bashrc to call the bash script autostartup.sh when booting (echo '/home/pi/MarioAI-NeuroRL-main/shell/autostartup.sh' >> .bashrc)
+		=> When the device is booted, the bash script autostartup.sh is executed, which in turn activates the Mario environment and then starts the Python script automatic_mode.py
+
+- Autologin when booting the device:
+	-> Open the Raspi terminal (directly on the device or via SSH from the host computer):
+		-> sudo raspi-config
+			-> 1 System Options -> S5 Boot / Auto Login -> B4 Desktop Autologin -> Finish -> Reboot? Yes 
+			=> The device should now reboot and then start the Python script without logging in!
